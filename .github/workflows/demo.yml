@@ -28,7 +28,7 @@ jobs:
       - name: upload artifact
         uses: actions/upload-artifact@v4
         with:
-          name: my/dist
+          name: my-dist
           path: |
             dist
             
